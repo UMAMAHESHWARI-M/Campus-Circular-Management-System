@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Circular</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Target_Member__c</field>
+        <operation>equals</operation>
+        <value>Students</value>
+    </filters>
+    <filters>
+        <field>Target_Member__c</field>
+        <operation>equals</operation>
+        <value>Both</value>
+    </filters>
+    <label>Student Circular</label>
+</ListView>
